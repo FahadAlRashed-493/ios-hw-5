@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1B634224AF63CA006DF5AD /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B634124AF63CA006DF5AD /* Players.swift */; };
+		4B1B634524AF6EE5006DF5AD /* PlayerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B634424AF6EE5006DF5AD /* PlayerDetailVC.swift */; };
 		9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4124299E69006D3BD4 /* AppDelegate.swift */; };
 		9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4324299E69006D3BD4 /* SceneDelegate.swift */; };
 		9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4524299E69006D3BD4 /* ViewController.swift */; };
@@ -21,11 +23,12 @@
 		9449EE722429B54B006D3BD4 /* Yoshi.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE712429B54B006D3BD4 /* Yoshi.WAV */; };
 		9449EE742429B5A4006D3BD4 /* Bowser.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE732429B5A4006D3BD4 /* Bowser.WAV */; };
 		9449EE762429F105006D3BD4 /* BG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE752429F105006D3BD4 /* BG.wav */; };
-		9449EE782429F136006D3BD4 /* Koopa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE772429F136006D3BD4 /* Koopa.wav */; };
 		D22BA088242A4006002EC169 /* MarioCharactersAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1B634124AF63CA006DF5AD /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		4B1B634424AF6EE5006DF5AD /* PlayerDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailVC.swift; sourceTree = "<group>"; };
 		9449EE3E24299E69006D3BD4 /* MarioParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9449EE4124299E69006D3BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9449EE4324299E69006D3BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +45,6 @@
 		9449EE712429B54B006D3BD4 /* Yoshi.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Yoshi.WAV; sourceTree = "<group>"; };
 		9449EE732429B5A4006D3BD4 /* Bowser.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bowser.WAV; sourceTree = "<group>"; };
 		9449EE752429F105006D3BD4 /* BG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BG.wav; sourceTree = "<group>"; };
-		9449EE772429F136006D3BD4 /* Koopa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Koopa.wav; sourceTree = "<group>"; };
 		D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MarioCharactersAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,8 +78,10 @@
 		9449EE4024299E69006D3BD4 /* MarioParty */ = {
 			isa = PBXGroup;
 			children = (
+				4B1B634124AF63CA006DF5AD /* Players.swift */,
 				9449EE4124299E69006D3BD4 /* AppDelegate.swift */,
 				9449EE4324299E69006D3BD4 /* SceneDelegate.swift */,
+				4B1B634424AF6EE5006DF5AD /* PlayerDetailVC.swift */,
 				9449EE4524299E69006D3BD4 /* ViewController.swift */,
 				9449EE4724299E69006D3BD4 /* Main.storyboard */,
 				D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */,
@@ -108,7 +112,6 @@
 				9449EE6D2429B51E006D3BD4 /* Waluigi.WAV */,
 				9449EE712429B54B006D3BD4 /* Yoshi.WAV */,
 				9449EE732429B5A4006D3BD4 /* Bowser.WAV */,
-				9449EE772429F136006D3BD4 /* Koopa.wav */,
 			);
 			path = "Character Sounds";
 			sourceTree = "<group>";
@@ -191,7 +194,6 @@
 				9449EE6E2429B51E006D3BD4 /* Waluigi.WAV in Resources */,
 				9449EE4924299E69006D3BD4 /* Main.storyboard in Resources */,
 				9449EE682429B4FA006D3BD4 /* Luigi.WAV in Resources */,
-				9449EE782429F136006D3BD4 /* Koopa.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1B634224AF63CA006DF5AD /* Players.swift in Sources */,
+				4B1B634524AF6EE5006DF5AD /* PlayerDetailVC.swift in Sources */,
 				9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */,
 				9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */,
 				9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */,
